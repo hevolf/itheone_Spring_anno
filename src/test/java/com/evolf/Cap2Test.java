@@ -1,6 +1,6 @@
 package com.evolf;
 
-import com.evolf.cap02.config.Cap2MainConfig;
+import com.evolf.cap02_Filter.config.Cap2MainConfig;
 import org.junit.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
