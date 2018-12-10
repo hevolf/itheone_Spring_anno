@@ -1,9 +1,9 @@
 package com.evolf.cap01;
 
-import com.evolf.cap01.config.MainConfig;
-import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
+        import com.evolf.cap01.config.MainConfig;
+        import org.springframework.context.ApplicationContext;
+        import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+        import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class MainTest2 {
     public static void main(String[] args) {

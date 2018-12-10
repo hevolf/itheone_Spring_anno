@@ -1,3 +1,4 @@
+package com.evolf;
 
 import com.evolf.cap04_Lazy.config.Cap4MainConfig;
 import org.junit.Test;

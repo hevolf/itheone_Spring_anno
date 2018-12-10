@@ -25,7 +25,7 @@ import org.springframework.context.annotation.*;
 
 @ComponentScans(
         value = {@ComponentScan(value = "com.evolf.cap02_Filter", includeFilters = {
-                @ComponentScan.Filter(type = FilterType.CUSTOM, classes = {com.enjoy.cap2.config.JamesTypeFilter.class})//自定义类型
+                @ComponentScan.Filter(type = FilterType.CUSTOM, classes = {com.evolf.cap02_Filter.config.JamesTypeFilter.class})//自定义类型
         }, useDefaultFilters = false)
                 ,
                 @ComponentScan(value = "com.evolf.cap02_Filter", includeFilters = {
