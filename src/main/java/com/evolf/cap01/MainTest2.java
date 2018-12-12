@@ -1,9 +1,8 @@
 package com.evolf.cap01;
 
-        import com.evolf.cap01.config.MainConfig;
-        import org.springframework.context.ApplicationContext;
-        import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-        import org.springframework.context.support.ClassPathXmlApplicationContext;
+import com.evolf.cap01.config.MainConfig;
+import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
 public class MainTest2 {
     public static void main(String[] args) {
@@ -17,7 +16,7 @@ public class MainTest2 {
 //        System.out.println(person);
 
         String[] namesForBean = app.getBeanNamesForType(Person.class);
-        for(String name:namesForBean){
+        for (String name : namesForBean) {
             System.out.println(name);
         }
     }
