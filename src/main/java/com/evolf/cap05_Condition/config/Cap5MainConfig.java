@@ -1,4 +1,4 @@
-package com.evolf.cap05.config;
+package com.evolf.cap05_Condition.config;
 
 import com.evolf.cap01.Person;
 import org.springframework.context.annotation.Bean;

@@ -1,4 +1,4 @@
-package com.evolf.cap05.config;
+package com.evolf.cap05_Condition.config;
 
 import org.springframework.beans.factory.config.ConfigurableListableBeanFactory;
 import org.springframework.context.annotation.Condition;
