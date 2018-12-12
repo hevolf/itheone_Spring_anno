@@ -1,6 +1,6 @@
-package com.evolf.cap06.config;
+package com.evolf.cap06_Import.config;
 
-import com.evolf.cap06.bean.Monkey;
+import com.evolf.cap06_Import.bean.Monkey;
 import org.springframework.beans.factory.FactoryBean;
 
 public class JamesFactoryBean implements FactoryBean<Monkey>{

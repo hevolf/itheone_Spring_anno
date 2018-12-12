@@ -1,8 +1,8 @@
-package com.evolf.cap06.config;
+package com.evolf.cap06_Import.config;
 
 import com.evolf.cap01.Person;
-import com.evolf.cap06.bean.Cat;
-import com.evolf.cap06.bean.Dog;
+import com.evolf.cap06_Import.bean.Cat;
+import com.evolf.cap06_Import.bean.Dog;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;

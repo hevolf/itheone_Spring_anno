@@ -1,6 +1,6 @@
 package com.evolf;
 
-import com.evolf.cap06.config.Cap6MainConfig;
+import com.evolf.cap06_Import.config.Cap6MainConfig;
 import org.junit.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
