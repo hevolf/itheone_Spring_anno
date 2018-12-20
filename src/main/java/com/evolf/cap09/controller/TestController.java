@@ -3,10 +3,10 @@ package com.evolf.cap09.controller;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 
-import com.enjoy.cap9.service.TestService;
+import com.evolf.cap09.service.TestService;
 
 @Controller
 public class TestController {
-	@Autowired
+	//@Autowired
 	private TestService testService;
 }
