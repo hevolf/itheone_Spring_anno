@@ -1,4 +1,4 @@
-package com.enjoy.cap7.config;
+package com.evolf.cap07_beanInit.config;
 
 import com.evolf.cap01.Person;
 import com.evolf.cap07_beanInit.bean.Bike;

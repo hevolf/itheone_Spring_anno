@@ -1,7 +1,9 @@
+package com.evolf;
+
+import com.evolf.cap07_beanInit.config.Cap7MainConfigOfLifeCycle;
 import org.junit.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
-import com.enjoy.cap7.config.Cap7MainConfigOfLifeCycle;
 
 public class Cap7Test {
 	@Test
