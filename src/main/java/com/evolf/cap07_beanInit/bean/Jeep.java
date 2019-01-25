@@ -3,6 +3,11 @@ package com.evolf.cap07_beanInit.bean;
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 
+/**
+ * @PostConstruct  初始化
+ * @PreDestroy	销毁
+ */
+
 import org.springframework.stereotype.Component;
 @Component
 public class Jeep {

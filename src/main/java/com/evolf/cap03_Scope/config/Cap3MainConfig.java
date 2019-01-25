@@ -1,6 +1,6 @@
 package com.evolf.cap03_Scope.config;
 
-import com.evolf.cap01.Person;
+import com.evolf.cap01_conf.Person;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Scope;

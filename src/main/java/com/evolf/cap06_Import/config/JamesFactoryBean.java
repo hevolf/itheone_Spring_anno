@@ -3,6 +3,10 @@ package com.evolf.cap06_Import.config;
 import com.evolf.cap06_Import.bean.Monkey;
 import org.springframework.beans.factory.FactoryBean;
 
+/**
+ * @author pc-Fy
+ * FactoryBean 注入bean
+ */
 public class JamesFactoryBean implements FactoryBean<Monkey>{
 
 	@Override

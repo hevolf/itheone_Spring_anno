@@ -1,8 +1,8 @@
 package com.evolf;
 
-import com.evolf.cap09.config.Cap9MainConfig;
-import com.evolf.cap09.dao.TestDao;
-import com.evolf.cap09.service.TestService;
+import com.evolf.cap09_Autowired.config.Cap9MainConfig;
+import com.evolf.cap09_Autowired.dao.TestDao;
+import com.evolf.cap09_Autowired.service.TestService;
 import org.junit.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 

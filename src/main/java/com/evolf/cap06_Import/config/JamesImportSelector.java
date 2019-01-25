@@ -7,6 +7,6 @@ public class JamesImportSelector implements ImportSelector{
 	@Override
 	public String[] selectImports(AnnotationMetadata importingClassMetadata){
 		//返回全类名的bean
-		return new String[]{"com.enjoy.cap06_Import.bean.Fish","com.enjoy.cap06_Import.bean.Tiger"};
+		return new String[]{"com.evolf.cap06_Import.bean.Fish","com.evolf.cap06_Import.bean.Tiger"};
 	}
 }

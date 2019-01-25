@@ -35,6 +35,13 @@
       <artifactId>javax.inject</artifactId>
       <version>1</version>
     </dependency>
+
+    <!--spring aop-->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-aspects</artifactId>
+      <version>5.0.6.RELEASE</version>
+    </dependency>
   </dependencies>
 
   <build>

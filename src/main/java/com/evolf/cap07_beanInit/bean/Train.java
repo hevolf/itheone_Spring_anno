@@ -4,6 +4,9 @@ import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;
 import org.springframework.stereotype.Component;
 
+/**
+ * 实现InitializingBean, DisposableBean接口来初始化 和 销毁
+ */
 @Component
 public class Train implements InitializingBean, DisposableBean{
 

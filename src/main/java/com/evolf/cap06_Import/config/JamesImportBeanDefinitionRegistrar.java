@@ -16,13 +16,17 @@ public class JamesImportBeanDefinitionRegistrar implements ImportBeanDefinitionR
 	*/
 	@Override
 	public void registerBeanDefinitions(AnnotationMetadata importingClassMetadata, BeanDefinitionRegistry registry) {
-		boolean bean1 = registry.containsBeanDefinition("com.enjoy.cap06_Import.bean.Dog");
-		boolean bean2 = registry.containsBeanDefinition("com.enjoy.cap06_Import.bean.Cat");
+		boolean bean1 = registry.containsBeanDefinition("com.evolf.cap06_Import.bean.Dog");
+		boolean bean2 = registry.containsBeanDefinition("com.evolf.cap06_Import.bean.Cat");
 		//如果Dog和Cat同时存在于我们IOC容器中,那么创建Pig类, 加入到容器
 		//对于我们要注册的bean, 给bean进行封装,
 		if(bean1 && bean2){
+			//先预定义一个Pig类型
 			RootBeanDefinition beanDefinition = new RootBeanDefinition(Pig.class);
+			//注册bean  beanId为：pig
 			registry.registerBeanDefinition("pig", beanDefinition);
+			registry.registerBeanDefinition("pigTest", beanDefinition);//beanId为：pigTest
+
 		}
 	}
 

@@ -2,7 +2,7 @@
 <beans xmlns="http://www.springframework.org/schema/beans"
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-    <bean id="person" class="com.evolf.cap01.Person">
+    <bean id="person" class="com.evolf.cap01_conf.Person">
         <property name="name" value="caohaifeng"></property>
         <property name="age" value="27"></property>
     </bean>

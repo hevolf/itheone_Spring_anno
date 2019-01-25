@@ -15,7 +15,9 @@ public class Cap6Test {
 		Object bean1 = app.getBean("jamesFactoryBean");
 		Object bean2 = app.getBean("jamesFactoryBean");//取Money
 		System.out.println("bean的类型="+bean1.getClass());
-		System.out.println(bean1 == bean2);
+		System.out.println(bean1 == bean2);//单例
+
+		System.out.println("pigTest类型：" + app.getBean("pigTest").getClass());
 
 		String[] beanDefinitionNames = app.getBeanDefinitionNames();
 		for(String name:beanDefinitionNames){
