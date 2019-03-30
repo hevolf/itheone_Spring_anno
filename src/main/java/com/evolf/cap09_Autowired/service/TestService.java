@@ -15,10 +15,10 @@ public class TestService {
 	//@Qualifier("testDao")
 	//@Autowired(required=false)
 	//@Resource(name="testDao2")
-	//@Resource效果是一样的,与Autowired一样可以装配bean
+	//@Resource效果是一样的,与Autowired一样可以装配bean (JSR250)
 	//1,不支持Primary功能
 	//2,不支持Autowired false
-	//@Inject
+	//@Inject (JSR330)
 	//1,支持Primary功能
 	//2,不支持Autowired false
 	private TestDao testDao;

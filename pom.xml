@@ -42,6 +42,28 @@
       <artifactId>spring-aspects</artifactId>
       <version>5.0.6.RELEASE</version>
     </dependency>
+
+    <!--c3p0数据源-->
+    <dependency>
+      <groupId>c3p0</groupId>
+      <artifactId>c3p0</artifactId>
+      <version>0.9.1.2</version>
+    </dependency>
+
+    <!--mysql数据库驱动依赖-->
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>5.1.44</version>
+    </dependency>
+
+    <!--spring jdbc依赖-->
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-jdbc</artifactId>
+      <version>5.0.6.RELEASE</version>
+    </dependency>
+
   </dependencies>
 
   <build>
